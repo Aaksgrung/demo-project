@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+ 	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <title>Blog Detail</title>
+
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link rel="stylesheet" type="text/css" href="dist/css/font-awesome.css"/>
+
+	    <link href="dist/css/app.css" rel="stylesheet">
+
+  	</head>
+  	<body>
+
+		<header class="l-header">
+	        <div class="l-header__top clearfix">
+	            <div class="container">
+		            <div class="row">
+		            	<div class="l-header__search">
+		            		<form class="navbar-form navbar-left l-search" role="search">
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="Search">
+								</div> 
+								<button type="submit" class="btn btn-default">
+									<img src="dist/images/search.png" width="20px" />
+								</button>
+							</form>
+		            	</div>
+		                <div class="l-header__social pull-right">
+			                <ul class=" list-unstyled">
+				                <li><a href=""><img src="dist/images/facebook.png" alt="facebook" width="30px"></a></li>
+				                <li><a href=""><img src="dist/images/twitter.png" alt="twitter" width="30px"></a></li>
+				                <li><a href=""><img src="dist/images/linkedin.png" alt="linkedin" width="30px"></a></li>
+				                <li><a href=""><img src="dist/images/google-plus.png" alt="fgoogle-plus" width="30px"></a></li>
+			                </ul>
+		               </div>
+		            </div>
+	            </div>
+	        </div>
+	        <div class="l-header__mob-menu">
+		        <div href="javascript:;" class="act">
+					<a href="javascript:;" id="hamburger">
+						<span class="top"></span>
+						<span class="middle"></span>
+						<span class="bottom"></span>
+					</a>
+				</div>
+
+		        <nav class="ham-menu mob-menu clearfix">
+
+		        	<div class="mob-menu__social social">
+		                <ul class="list-unstyled">
+			                <li>
+			                	<a href=""><i class="fa fa-facebook"></i></a>
+			                </li>
+			                <li>
+			                	<a href=""><i class="fa fa-twitter"></i></a>
+			                </li>
+			                <li>
+			                	<a href=""><i class="fa fa-linkedin"></i></a>
+			                </li>
+			                <li>
+			                	<a href=""><i class="fa fa-google-plus"></i></a>
+			                </li>
+		                </ul>
+	               	</div>
+
+					<ul>
+						<li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                        <li>
+                            <a href="">Motivation</a>
+                        </li>
+                        <li>
+                            <a href="">inspiration</a>
+                        </li>
+                        <li>
+                            <a href="">refrences</a>
+                        </li>
+                        <li>
+                            <a href="">contact</a>
+                        </li>
+					</ul>
+				</nav>
+			</div>
+			<div class="l-header__main clearfix"> 
+	            <div class="container">
+	                  <div class="row">
+	                    <div class="col-md-3">
+	                       <div class="row">
+	                          <div class="l-header__logo">
+	                            <a href="index.html">
+	                            	<img src="dist/images/logo.png" align="Blog" width="150" />
+	                            </a>
+	                          </div>
+	                       </div>
+	                    </div>
+	                    <div class="col-md-9">
+	                      <div class="menu row">
+	                        <nav class="navbar navbar-default" role="navigation">
+	                            
+	                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                                <ul class="nav navbar-nav">
+	                                	<li>
+	                                        <a href="index.html">Home</a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="">about</a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="">Motivation</a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="">inspiration</a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="">refrences</a>
+	                                    </li>
+	                                    <li class="dropdown">
+	                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+	                                         	 dropdown <i class="fa fa-angle-down"></i> 
+	                                         </a>
+	                                        <ul class="dropdown-menu">
+	                                            <li>
+	                                                <a href="">Contact Us</a>
+	                                            </li>
+	                                            <li>
+	                                                <a href="">Careers</a>
+	                                            </li>
+	                                        </ul>
+	                                    </li>
+	                                </ul>
+	                             </div>
+	                        </nav>
+	                      </div>  
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="l-header__mob-search">
+	        	<a href=""><img src="dist/images/search.png" width="20px" /></a>
+	        </div>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="row">
+					<div class="b-detail clearfix">
+						<div class="row">
+
+							<!--category post-->
+							<div class="col-sm-8 col-md-8">
+								<div class="b-detail__wrapper c-wrapper clearfix">
+
+									<section class="full-wrapper--bg__white clearfix">
+
+										<div class="m-blog__big m-blog__big--detail clearfix">
+											
+											<div class="blog__title">
+												<a href=""><h3>10 reasons some people succeed and others don’t</h3></a>
+												<span class="blog-tag">Tag, Category</span>
+												<span class="blog-date">1 January 2016</span>
+											</div>
+
+											<div class="img-container">
+												<a href=""><img src="dist/images/featured-img-big.jpg" /></a>
+											</div>
+
+											<div class="blog__desc">
+												<p>
+													Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+												</p>
+												<p>
+													Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+												</p>
+											</div>
+
+											<div class="clear"></div>
+											<div class="blog__comment blog__comment--detail clearfix">
+												<span class="blog__share">
+													Share:
+													<a href=""><i class="fa fa-facebook"></i></a>
+													<a href=""><i class="fa fa-twitter"></i></a>
+													<a href=""><i class="fa fa-google-plus"></i></a>
+												</span>
+											</div>
+
+										</div>
+
+									</section>
+
+									<div class="other-post">
+										<div class="row">
+
+											<div class="col-sm-6">
+												<div class="other-post__box clearfix">
+													<div class="other-post__title">
+														<a href=""><img src="dist/images/prev.png" width="20" />PREVIOUS POST</a>
+													</div>
+													<div class="m-blog__flat clearfix">
+														<div class="img-container">
+															<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+														</div>
+														<div class="blog__content">
+															<div class="blog__title">
+																<a href="">
+																	<h5>10 reasons some people succeed and others don’t</h5>
+																</a>
+																<span class="blog-tag">Tag, Category</span>
+																<span class="blog-date">1 January 2016</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="other-post__box other-post__box--right clearfix">
+													<div class="other-post__title">
+														<a href="">NEXT POST 
+															<img src="dist/images/read-more.png" width="20" />
+														</a>
+													</div>
+													<div class="m-blog__flat clearfix">
+														<div class="img-container">
+															<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+														</div>
+														<div class="blog__content">
+															<div class="blog__title">
+																<a href="">
+																	<h5>10 reasons some people succeed and others don’t</h5>
+																</a>
+																<span class="blog-tag">Tag, Category</span>
+																<span class="blog-date">1 January 2016</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+									<section class="b-form full-wrapper--bg__white clearfix">
+										<h5> Leave Comment </h5>
+										<form role="form">
+											<div class="row">
+												<div class="form-group col-sm-6">
+													<input type="text" class="form-control" id="usr" placeholder="Your name">
+												</div>
+												<div class="form-group col-sm-6">
+													<input type="email" class="form-control" id="email" placeholder="Your email id">
+												</div>
+												<div class="form-group col-sm-12">
+													<textarea class="form-control" rows="5" id="comment" placeholder="Your message"></textarea>
+												</div>
+											</div>
+											<button type="submit" class="btn btn-primary">Submit comment</button>
+										</form>
+									</section>
+
+									<section class="b-related full-wrapper--bg__white clearfix">
+										<div class="section__tittle">
+											<h2>related articles</h2>
+										</div>
+										<div class="b-related__content clearfix">
+											<div class="m-blog__box">
+												<div class="img-container">
+													<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+												</div>
+												<div class="blog__title">
+													<a href=""><h5>10 reasons some people succeed and others don’t</h5></a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+											<div class="m-blog__box">
+												<div class="img-container">
+													<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+												</div>
+												<div class="blog__title">
+													<a href=""><h5>10 reasons some people succeed and others don’t</h5></a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+											<div class="m-blog__box">
+												<div class="img-container">
+													<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+												</div>
+												<div class="blog__title">
+													<a href=""><h5>10 reasons some people succeed and others don’t</h5></a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+										</div>
+										<span class="read-more--big">
+											<a href="">Read more post 
+												<i class="fa fa-angle-right" aria-hidden="true"></i>
+											</a>
+										</span>
+									</section>
+								</div>
+							</div>
+
+							<div class="col-sm-4 col-md-4">
+								<aside class="c-wrapper c-category__aside clearfix">
+									<!--recent post-->
+									<section class="b-recent clearfix">
+										<div class="section__tittle">
+											<h2>recent articles</h2>
+										</div>
+										<div class="m-blog__flat clearfix">
+											<div class="img-container">
+												<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+											</div>
+											<div class="blog__content">
+												<div class="blog__title">
+													<a href="">
+														<h5>10 reasons some people succeed and others don’t</h5>
+													</a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+										</div>
+										<div class="m-blog__flat clearfix">
+											<div class="img-container">
+												<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+											</div>
+											<div class="blog__content">
+												<div class="blog__title">
+													<a href="">
+														<h5>10 reasons some people succeed and others don’t</h5>
+													</a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+										</div>
+										<div class="m-blog__flat clearfix">
+											<div class="img-container">
+												<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+											</div>
+											<div class="blog__content">
+												<div class="blog__title">
+													<a href="">
+														<h5>10 reasons some people succeed and others don’t</h5>
+													</a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+										</div>
+										<div class="m-blog__flat clearfix">
+											<div class="img-container">
+												<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+											</div>
+											<div class="blog__content">
+												<div class="blog__title">
+													<a href="">
+														<h5>10 reasons some people succeed and others don’t</h5>
+													</a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+										</div>
+										<div class="m-blog__flat clearfix">
+											<div class="img-container">
+												<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+											</div>
+											<div class="blog__content">
+												<div class="blog__title">
+													<a href="">
+														<h5>10 reasons some people succeed and others don’t</h5>
+													</a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+										</div>
+										<div class="m-blog__flat clearfix">
+											<div class="img-container">
+												<a href=""><img src="dist/images/featured-img-small.jpg" /></a>
+											</div>
+											<div class="blog__content">
+												<div class="blog__title">
+													<a href="">
+														<h5>10 reasons some people succeed and others don’t</h5>
+													</a>
+													<span class="blog-tag">Tag, Category</span>
+													<span class="blog-date">1 January 2016</span>
+												</div>
+											</div>
+										</div>
+										<span class="read-more--big">
+											<a href="">Read more articles 
+												<i class="fa fa-angle-right" aria-hidden="true"></i>
+											</a>
+										</span>
+									</section>
+
+									<section class="b-tags clearfix">
+										<div class="section__tittle">
+											<h2>tags</h2>
+										</div>
+										<div class="b-tags__box">
+							                <span class="b-tags__links"><a href="">Inspiration</a></span>
+							                <span class="b-tags__links"><a href="">Health</a></span>
+							                <span class="b-tags__links"><a href="">Food</a></span>
+							                <span class="b-tags__links"><a href="">Carrer Advice</a></span>
+							                <span class="b-tags__links"><a href="">Motivation</a></span>
+							                <span class="b-tags__links"><a href="">Slef Development</a></span>
+							                <span class="b-tags__links"><a href="">Leadership</a></span>
+							                <span class="b-tags__links"><a href="">lifestyle</a></span>
+							                <span class="b-tags__links"><a href="">spiritual</a></span>
+							                <span class="b-tags__links"><a href="">Motivation</a></span>
+						               	</div>
+									</section>
+
+									<section class="b-social clearfix">
+										<div class="section__tittle">
+											<h2>social connect</h2>
+										</div>
+										<div class="b-social__links social">
+							                <ul class="list-unstyled">
+								                <li>
+								                	<a href="">
+								                		<img src="dist/images/facebook.png" alt="facebook" width="30px">
+								                	</a>
+								                </li>
+								                <li>
+								                	<a href="">
+								                		<img src="dist/images/twitter.png" alt="twitter" width="30px">
+								                	</a>
+								                </li>
+								                <li>
+								                	<a href="">
+								                		<img src="dist/images/linkedin.png" alt="linkedin" width="30px">
+								                	</a>
+								                </li>
+								                <li>
+								                	<a href="">
+								                		<img src="dist/images/google-plus.png" alt="fgoogle-plus" width="30px">
+								                	</a>
+								                </li>
+							                </ul>
+						               	</div>
+									</section>
+
+									<section class="b-newsletter clearfix">
+										<div class="section__tittle text-center">
+											<h2>Newsletter</h2>
+											<h4><em>Sign up</em></h4>
+											<p>Get the latest updates!</p>
+										</div>
+										<form role="form">
+											<div class="form-group">
+											    <input type="email" class="form-control" id="email" placeholder="Your email id">
+											</div>
+											<button type="submit" class="btn btn-primary">Subscribe</button>
+										</form>
+									</section>
+
+								</aside>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="l-footer full-wrapper--bg__white clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="l-footer__menu">
+						<ul class="list-unstyled">
+							<li><a href="">home </a></li>
+							<li><a href="">about </a></li>
+							<li><a href="">refrences </a></li>
+							<li><a href="">inspiration </a></li>
+							<li><a href="">contact </a></li>
+						</ul>
+					</div>
+					<div class="l-footer__social social">
+		                <ul class="list-unstyled">
+			                <li><a href=""><img src="dist/images/facebook.png" alt="facebook" width="30px"></a></li>
+			                <li><a href=""><img src="dist/images/twitter.png" alt="twitter" width="30px"></a></li>
+			                <li><a href=""><img src="dist/images/linkedin.png" alt="linkedin" width="30px"></a></li>
+			                <li><a href=""><img src="dist/images/google-plus.png" alt="fgoogle-plus" width="30px"></a></li>
+		                </ul>
+	               </div>
+	               <div class="l-footer__last text-center">
+	               		<span><a href="">Privacy Policy</a> | <a href="">Terms of Use</a></span>
+	               		<span>
+	               			Copyright &copy; 2016 Blog. | site by <a href="">Akash Gurung</a>
+	               		</span>
+	               </div>
+				</div>
+			</div>
+		</footer>
+
+	    <script src="dist/js/jquery.min.js"></script>
+	    <script src="dist/js/bootstrap.min.js"></script>
+	    <script src="dist/js/scripts.js"></script>
+  	</body>
+</html>
